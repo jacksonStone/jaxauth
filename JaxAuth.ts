@@ -2,7 +2,7 @@ let crypto = require('crypto')
 const DEFAULT_HASHING_FUNCTION_NAME = "sha256"
 const ENCRYPTION_FUNCTION_NAME = 'aes-128-cbc'
 const COOKIE_NAME = "jaxauth"
-
+g
 export class JaxAuth<User> {
     public getUser: (userId: string) => Promise<User> = () => { throw new Error("Unimplemented, specify userGetter"); }
     public getUserHashPasswordField: (user: User) => string = () => { throw new Error("Unimplemented, specify getUserHashPasswordField"); }
