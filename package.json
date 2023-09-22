@@ -1,0 +1,22 @@
+{
+  "name": "jaxauth",
+  "version": "1.0.0",
+  "description": "simple password login for an app",
+  "main": "JaxAuth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonStone/jaxauth.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacksonStone/jaxauth/issues"
+  },
+  "homepage": "https://github.com/jacksonStone/jaxauth#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.3"
+  }
+}
