@@ -21,6 +21,7 @@ const auth: JaxAuth<User> = new JaxAuthBuilder<User>()
 
 export default auth;
 ```
+Additionally, in the above example ENCRYPTION_KEY needs to be a 16byte string (length 16, utf-8), and HMAC_KEY needs a 32 byte string (length 32, utf-8)
 
 An example of creating the hashedPassword and salt during initial user creation
 
